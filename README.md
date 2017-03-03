@@ -1,6 +1,7 @@
 # ctrlp-grep
 grep your source code via ctrlp.vim!
 
+![ctrlp-grep](./doc/tty.gif)
 # Installation
 - use your favorite method.
 ````
