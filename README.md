@@ -1,4 +1,4 @@
-# ctrlp-locate
+# ctrlp-grep
 grep your source code via ctrlp.vim!
 
 # Installation
