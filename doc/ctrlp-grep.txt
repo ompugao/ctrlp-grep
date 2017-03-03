@@ -1,0 +1,38 @@
+*ctrlp-grep.txt*	 grep your source code via ctrlp.vim!
+
+Author: ompugao
+Licence: MIT
+
+==============================================================================
+INTRODUCTION					*ctrlp-locate-introduction*
+
+*ctrlp-grep* is a ctrlp.vim plugin to grep files easily, using ag command.
+
+Requirement:
+- ctrlp.vim
+- ag command
+
+Latest version:
+https://github.com/ompugao/ctrlp-grep
+
+
+
+==============================================================================
+CONFIGURATION					*ctrlp-grep-configuration*
+
+g:ctrlp_grep_max_candidates			*g:ctrlp_grep_max_candidates*
+	Specifies the maximum number of files you search.
+	If you set it to 0, this plugin makes a list of all matched files.
+	default: 0
+
+g:ctrlp_grep_command_definition		*g:ctrlp_grep_command_definition*
+	Define grep command on your own.
+        You can use '{query}' and '{max_candidates}', the former one will be substituted
+        by query string, and the latter one by g:ctrlp_grep_max_candidates.
+
+g:ctrlp_grep_min_chars			*g:ctrlp_grep_min_chars*
+	the acceptable number of characters for executing grep command.
+        default is 1.
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
